@@ -24,7 +24,6 @@ The maintainer is Pablo ([@fluyeporlaweb](https://x.com/fluyeporlaweb)). The pro
 │   └── <tool-name>/     # one directory per tool
 ├── .github/             # issue and PR templates
 ├── llms.txt             # short project summary for LLMs
-└── SEO.md               # GitHub repository listing proposal
 ```
 
 ## Adding a tool
