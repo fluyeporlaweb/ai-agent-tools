@@ -1,0 +1,27 @@
+# Dependencies and builds
+node_modules/
+dist/
+build/
+out/
+coverage/
+target/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Tooling
+.cache/
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
