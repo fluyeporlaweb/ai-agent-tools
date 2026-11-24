@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/assets/logo.png" width="128" alt="ai-agent-tools logo"></p>
+
 # Agent Tools
 
 **Open-source tools for AI agents: MCP servers, agent skills and scripts that Claude, Cursor, Windsurf and any compatible agent can use.** Built and maintained by [fluyeporlaweb](https://fluyeporlaweb.com).
