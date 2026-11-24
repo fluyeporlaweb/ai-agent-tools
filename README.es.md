@@ -4,7 +4,7 @@
 
 [English](README.md) · Español
 
-[![GitHub stars](https://img.shields.io/github/stars/fluyeporlaweb/agent-tools?style=flat)](https://github.com/fluyeporlaweb/agent-tools/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/fluyeporlaweb/ai-agent-tools?style=flat)](https://github.com/fluyeporlaweb/ai-agent-tools/stargazers)
 [![Licencia: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 

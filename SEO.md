@@ -1,6 +1,6 @@
 # GitHub repository listing
 
-Proposed fields for the public listing of `fluyeporlaweb/agent-tools`.
+Proposed fields for the public listing of `fluyeporlaweb/ai-agent-tools`.
 
 ## Description
 
@@ -11,7 +11,7 @@ Open-source tools for AI agents: MCP servers, agent skills and scripts for Claud
 ```
 ai-agents
 ai-agent
-agent-tools
+ai-agent-tools
 mcp
 mcp-server
 model-context-protocol

@@ -4,7 +4,7 @@ Instructions for coding agents working in this repository.
 
 ## What this repo is
 
-`agent-tools` is the public monorepo where fluyeporlaweb builds and publishes tools for AI agents: MCP servers, agent skills and scripts. It is documentation-first: the root README and every tool README are written for humans and for agents.
+`ai-agent-tools` is the public monorepo where fluyeporlaweb builds and publishes tools for AI agents: MCP servers, agent skills and scripts. It is documentation-first: the root README and every tool README are written for humans and for agents.
 
 The maintainer is Pablo ([@fluyeporlaweb](https://x.com/fluyeporlaweb)). The project is MIT licensed.
 

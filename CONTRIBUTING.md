@@ -8,7 +8,7 @@ This project is bilingual. Public documentation is maintained in English and Spa
 
 ### Proposing a tool
 
-Open a [tool proposal](https://github.com/fluyeporlaweb/agent-tools/issues/new?template=tool-proposal.yml) and describe:
+Open a [tool proposal](https://github.com/fluyeporlaweb/ai-agent-tools/issues/new?template=tool-proposal.yml) and describe:
 
 - What the tool does and who it is for.
 - Whether it is an MCP server, an agent skill or a script.
@@ -57,7 +57,7 @@ Participation is covered by the [Code of Conduct](CODE_OF_CONDUCT.md). Report un
 
 ### Proponer una herramienta
 
-Abre una [propuesta de herramienta](https://github.com/fluyeporlaweb/agent-tools/issues/new?template=tool-proposal.yml) y explica:
+Abre una [propuesta de herramienta](https://github.com/fluyeporlaweb/ai-agent-tools/issues/new?template=tool-proposal.yml) y explica:
 
 - Qué hace la herramienta y para quién es.
 - Si es un servidor MCP, una skill o un script.
