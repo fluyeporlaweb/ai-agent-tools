@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a problem with a tool or with the repository.
+description: Report a problem with a list entry, a tool or the repository.
 title: "[Bug]: "
 labels: ["bug"]
 body:
@@ -7,12 +7,12 @@ body:
     attributes:
       value: |
         Thanks for the report. Do not include secrets, tokens or private data.
-        For security issues, follow [SECURITY.md](https://github.com/fluyeporlaweb/agent-tools/blob/main/SECURITY.md) instead.
+        For security issues, follow [SECURITY.md](https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/SECURITY.md) instead.
   - type: input
     id: tool
     attributes:
       label: Tool or area
-      description: Which tool or part of the repo is affected?
+      description: Which entry, tool or part of the repo is affected?
       placeholder: mcp-x-intelligence, README, tooling...
     validations:
       required: true

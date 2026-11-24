@@ -1,0 +1,65 @@
+name: Suggest an entry
+description: Propose a tool, API, MCP server, SDK or framework for the list
+title: "Entry: "
+labels: ["entry"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you. Please fill this in so we can verify the link and add it to both READMEs.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Playwright MCP
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Protocols and standards
+        - Agent frameworks and SDKs
+        - Coding agents and IDEs
+        - MCP SDKs, registry and tooling
+        - MCP servers
+        - MCP clients and hosts
+        - Browser, computer use and sandboxes
+        - Data, scraping and search APIs
+        - Memory, RAG and vector stores
+        - Observability, evals and tracing
+        - LLM APIs, routers and runtimes
+        - Workflow and orchestration
+        - Voice, speech and realtime
+        - Guardrails and safety
+        - Agent skills and tool marketplaces
+        - Built by fluyeporlaweb
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: What it is and why an agent builder would use it. English, Spanish, or both. No marketing superlatives.
+      placeholder: Official MCP server that lets agents browse and automate pages with Playwright.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have opened the URL and it works.
+          required: true
+        - label: This is not a copy-paste of another awesome list.
+          required: true
+        - label: I am not adding my own affiliate or tracking parameters.
+          required: true

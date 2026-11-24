@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use Agent Tools, cite it using this metadata."
 title: Agent Tools
-abstract: "Open-source tools for AI agents from fluyeporlaweb: MCP servers, agent skills and scripts for Claude, Cursor, Windsurf and any MCP-compatible agent."
+abstract: "A curated directory of tools, APIs, MCP servers, SDKs and frameworks for AI agents, in English and Spanish, maintained by fluyeporlaweb."
 type: software
 authors:
   - name: "fluyeporlaweb"

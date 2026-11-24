@@ -1,11 +1,11 @@
-# Herramientas
+# Herramientas hechas por fluyeporlaweb
 
-Cada herramienta de este monorepo vive en su propia carpeta dentro de `tools/`. Es autocontenida: tiene su README, sus pasos de instalación, su configuración y su código.
+Esta carpeta es para las herramientas que construye y publica [fluyeporlaweb](https://fluyeporlaweb.com): servidores MCP, skills de agentes y scripts pequeños. La raíz de este repositorio es una lista awesome del ecosistema; este directorio es solo nuestro trabajo.
 
 ```
 tools/
-├── _template/       # punto de partida para una herramienta nueva
-└── <nombre-herramienta>/
+├── _template/       # punto de partida de una herramienta nueva
+└── <nombre>/
     ├── README.md
     ├── README.es.md
     ├── TOOL.md
@@ -13,6 +13,4 @@ tools/
     └── src/
 ```
 
-Las herramientas pueden ser servidores MCP (TypeScript), skills (`SKILL.md`) o scripts (Python o Bash). El tipo se indica en `TOOL.md` y en la tabla de herramientas del README raíz.
-
-Para añadir una herramienta, copia `_template/` y sigue [CONTRIBUTING.md](../CONTRIBUTING.md). La versión en inglés está en [README.md](README.md).
+Para añadir una herramienta que mantenemos nosotros, copia `_template/` y sigue [CONTRIBUTING.md](../CONTRIBUTING.md).

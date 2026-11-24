@@ -1,14 +1,20 @@
 # Agent Tools
 
-> Open-source tools for AI agents from fluyeporlaweb: MCP servers, agent skills and scripts for Claude, Cursor, Windsurf and any MCP-compatible agent.
+> A curated directory of tools, APIs, MCP servers, SDKs and frameworks for AI agents, in English and Spanish, maintained by fluyeporlaweb.
 
 Maintainer: Pablo, fluyeporlaweb (https://x.com/fluyeporlaweb).
 License: MIT (https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/LICENSE).
 Repository: https://github.com/fluyeporlaweb/ai-agent-tools
+Sponsor: https://fluyeporlaweb.com/patrocina
 
-## Tools
+## What this is
+
+An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link). Some links are affiliates and go through https://fluyeporlaweb.com/go/; they are marked in the README.
+
+## Built by fluyeporlaweb
 
 - mcp-x-intelligence: MCP server for X/Twitter research. Status: coming soon. Standalone repo: https://github.com/fluyeporlaweb/mcp-x-intelligence
+- Apify actors: scrapers and automations published at https://apify.com/fluyeporlaweb
 
 ## Docs
 
@@ -16,7 +22,6 @@ Repository: https://github.com/fluyeporlaweb/ai-agent-tools
 - README (Spanish): https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/README.es.md
 - Agent instructions: https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/AGENTS.md
 - Contributing: https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/CONTRIBUTING.md
-- Tools layout: https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/tools/README.md
 
 ## Links
 

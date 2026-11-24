@@ -1,6 +1,6 @@
-# Tools
+# Tools built by fluyeporlaweb
 
-Each tool in this monorepo lives in its own directory under `tools/`. A tool is self-contained: it has its own README, install steps, configuration and code.
+This folder is for tools that [fluyeporlaweb](https://fluyeporlaweb.com) builds and publishes: MCP servers, agent skills and small scripts. The root of this repository is a curated awesome list of the wider ecosystem; this directory is only our own work.
 
 ```
 tools/
@@ -13,6 +13,4 @@ tools/
     └── src/
 ```
 
-Tools can be MCP servers (TypeScript), agent skills (`SKILL.md`) or scripts (Python or Bash). The type is recorded in `TOOL.md` and in the root tools table.
-
-To add a tool, copy `_template/` and follow [CONTRIBUTING.md](../CONTRIBUTING.md). See the Spanish version in [README.es.md](README.es.md).
+To add a tool we maintain, copy `_template/` and follow [CONTRIBUTING.md](../CONTRIBUTING.md). See the Spanish version in [README.es.md](README.es.md).

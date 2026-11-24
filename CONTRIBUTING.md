@@ -1,100 +1,131 @@
 # Contributing to Agent Tools
 
-This project is bilingual. Public documentation is maintained in English and Spanish, so every tool ships a `README.md` and a `README.es.md`. You can contribute in either language.
+This project is bilingual. Public documentation is maintained in English (`README.md`) and Spanish (`README.es.md`). Both files must stay in sync. You can contribute in either language.
 
 ---
 
 ## English
 
-### Proposing a tool
+### What belongs here
 
-Open a [tool proposal](https://github.com/fluyeporlaweb/ai-agent-tools/issues/new?template=tool-proposal.yml) and describe:
+This repository is a curated awesome list of **tools, APIs, MCP servers, SDKs, frameworks and runtimes for AI agents**. An entry is accepted when it meets **all** of these:
 
-- What the tool does and who it is for.
-- Whether it is an MCP server, an agent skill or a script.
-- Any existing repo or prototype.
-- Why it belongs in this monorepo instead of a standalone repo.
+1. **Useful for building or running agents.** Frameworks, SDKs, MCP servers, coding agents, data/search APIs, memory, observability, gateways, workflows, voice, guardrails or agent skills.
+2. **Real and alive.** The URL responds, and the product or repo is maintained (activity in the last ~12 months), unless it is a canonical standard or specification.
+3. **Curated, not dumped.** One entry per product. No link farms, no SEO-bait directories, no copies of other awesome lists.
+4. **A clear one-line description.** Say what it does, not that it is "the best".
 
-Wait for a maintainer to agree on the scope before writing code.
+Paid products are welcome when they are widely used by people who build agents and have a public page we can link. Official vendor tools belong here; unofficial wrappers are accepted only when they are the usual way to use that product.
 
-### Adding a tool
+### Entry format
 
-1. Copy `tools/_template/` to `tools/<tool-name>/`. Use lowercase and hyphens.
-2. Write `README.md` and `README.es.md` with the same structure. English and Spanish must be published together.
-3. Fill in `TOOL.md`.
-4. Add the source under `src/`, or a `SKILL.md` for a skill.
-5. Add the tool to the tables in the root `README.md` and `README.es.md`.
-6. Add a row to `llms.txt`.
-7. Include tests if the tool contains code, and document how to run them.
+One line per entry, in the right category, in both READMEs:
 
-### Directory format
-
-```
-tools/<tool-name>/
-├── README.md
-├── README.es.md
-├── TOOL.md
-├── .env.example
-└── src/
+```md
+- [Name](https://example.com) - One-line description that says what it is and why an agent builder would use it.
 ```
 
-### Pull request checklist
+Rules:
 
-- [ ] The tool is in its own directory under `tools/`.
-- [ ] `README.md` and `README.es.md` are both complete and consistent.
-- [ ] The root README tables and `llms.txt` mention the tool.
-- [ ] No secrets, tokens, `.env` files or credentials are included.
-- [ ] Tests pass, or the PR explains why there are none.
-- [ ] The change is described in plain language.
+- Description: one line, starts with a capital letter, ends with a period. English in `README.md`, Spanish of Spain in `README.es.md`.
+- No marketing superlatives ("the best", "ultimate", "revolutionary").
+- Do not add affiliate parameters or tracking codes of your own. Maintainer-managed affiliate links already go through `https://fluyeporlaweb.com/go/` and are marked *affiliate* / *afiliado*.
+- Keep both files in sync: an entry added to one must be added to the other in the same pull request.
+- Update the count in the Contents / Índice list for that category.
+
+### Categories
+
+If a new entry does not fit any existing category, open an issue first and propose a new one. New categories should start with at least five entries.
+
+### How to contribute
+
+**Easiest:** open an issue using the "Suggest an entry" template. The maintainer will verify the link and add it.
+
+**By pull request:**
+
+1. Fork the repository.
+2. Add the entry to `README.md` and `README.es.md` in the right category, in alphabetical order within the section when it is practical, otherwise next to related tools.
+3. Update the category count in the contents list of both files.
+4. Check the link:
+
+   ```sh
+   curl -s -o /dev/null -w "%{http_code}" -L -A "Mozilla/5.0" "https://your-url.example"
+   ```
+
+   A `200`–`399` response is expected. Some sites block bots with `403`; mention that in the PR.
+
+5. Open the pull request using the template.
+
+Please do not send a PR that only copies a block from another awesome list.
+
+### Reporting a broken link
+
+Open an issue titled `Broken link: <name>` with the URL and what you see (404, redirect, parked domain). A PR that removes or replaces the entry in both READMEs is also welcome.
+
+### Tools built by fluyeporlaweb
+
+Source for tools we publish ourselves still lives under `tools/`. If you are proposing a tool *we* should build, open a discussion or an issue and wait for a maintainer before sending code. Public contributions to the list itself (this README) do not require that.
 
 ### Code of conduct
 
-Participation is covered by the [Code of Conduct](CODE_OF_CONDUCT.md). Report unacceptable behavior to the maintainers as described there.
+Participation is covered by the [Code of Conduct](CODE_OF_CONDUCT.md). Report unacceptable behavior to the maintainers as described there. Entries that point to harassment, hate, gambling, crypto-pump or adult content will be rejected.
 
 ---
 
 ## Español
 
-### Proponer una herramienta
+### Qué encaja aquí
 
-Abre una [propuesta de herramienta](https://github.com/fluyeporlaweb/ai-agent-tools/issues/new?template=tool-proposal.yml) y explica:
+Este repositorio es una lista tipo awesome de **herramientas, APIs, servidores MCP, SDKs, frameworks y runtimes para agentes de IA**. Una entrada se acepta cuando cumple **todo** esto:
 
-- Qué hace la herramienta y para quién es.
-- Si es un servidor MCP, una skill o un script.
-- Si ya existe un repositorio o un prototipo.
-- Por qué encaja en este monorepo y no en un repositorio aparte.
+1. **Sirve para construir o ejecutar agentes.** Frameworks, SDKs, servidores MCP, agentes de código, APIs de datos o búsqueda, memoria, observabilidad, pasarelas, flujos, voz, guardrails o skills.
+2. **Es real y está viva.** La URL responde y el producto o el repo se mantiene (actividad en los últimos ~12 meses), salvo que sea un estándar o una especificación de referencia.
+3. **Está curada, no volcada.** Una entrada por producto. Nada de granjas de enlaces, directorios cebo ni copias de otras listas awesome.
+4. **Tiene una descripción de una línea.** Qué hace, no que es "la mejor".
 
-Espera a que un maintainer acepte el alcance antes de escribir código.
+Los productos de pago caben si los usa mucha gente que construye agentes y tienen una página pública que podamos enlazar. Las herramientas oficiales del fabricante encajan; los wrappers no oficiales solo si son la forma habitual de usar ese producto.
 
-### Añadir una herramienta
+### Formato de la entrada
 
-1. Copia `tools/_template/` en `tools/<nombre-herramienta>/`. Usa minúsculas y guiones.
-2. Escribe `README.md` y `README.es.md` con la misma estructura. Los dos idiomas se publican juntos.
-3. Rellena `TOOL.md`.
-4. Añade el código en `src/`, o un `SKILL.md` si es una skill.
-5. Añade la herramienta a las tablas del `README.md` y `README.es.md` de la raíz.
-6. Añade una fila a `llms.txt`.
-7. Incluye tests si la herramienta tiene código y documenta cómo ejecutarlos.
+Una línea por entrada, en la categoría correcta, en los dos README:
 
-### Formato del directorio
-
-```
-tools/<nombre-herramienta>/
-├── README.md
-├── README.es.md
-├── TOOL.md
-├── .env.example
-└── src/
+```md
+- [Nombre](https://example.com) - Una línea que dice qué es y por qué le sirve a quien construye agentes.
 ```
 
-### Lista de comprobación del pull request
+Normas:
 
-- [ ] La herramienta está en su propia carpeta dentro de `tools/`.
-- [ ] `README.md` y `README.es.md` están completos y son coherentes.
-- [ ] Las tablas del README raíz y `llms.txt` mencionan la herramienta.
-- [ ] No se incluyen secretos, tokens, ficheros `.env` ni credenciales.
-- [ ] Los tests pasan, o el PR explica por qué no hay.
-- [ ] El cambio se describe en lenguaje claro.
+- Descripción: una línea, empieza con mayúscula y termina con punto. Inglés en `README.md`, español de España en `README.es.md`.
+- Sin superlativos de marketing ("the best", "ultimate", "revolucionario").
+- No añadas parámetros de afiliado ni códigos de seguimiento por tu cuenta. Los enlaces de afiliado que mantiene el proyecto pasan por `https://fluyeporlaweb.com/go/` y van marcados con *affiliate* / *afiliado*.
+- Los dos ficheros van a la par: si añades una entrada en uno, va en el otro en el mismo pull request.
+- Actualiza el recuento del índice de esa categoría.
+
+### Categorías
+
+Si una entrada nueva no encaja en ninguna categoría, abre una issue y propone una categoría nueva. Una categoría nueva debería nacer con al menos cinco entradas.
+
+### Cómo contribuir
+
+**Lo más fácil:** abre una issue con la plantilla "Suggest an entry". El maintainer comprobará el enlace y la añadirá.
+
+**Por pull request:**
+
+1. Haz un fork del repositorio.
+2. Añade la entrada en `README.md` y `README.es.md`, en la categoría correcta.
+3. Actualiza el recuento de esa categoría en el índice de los dos ficheros.
+4. Comprueba el enlace con `curl` (véase la sección en inglés). Se espera un `200`–`399`.
+5. Abre el pull request con la plantilla.
+
+No envíes un PR que solo copie un bloque de otra lista awesome.
+
+### Enlaces rotos
+
+Abre una issue con el título `Broken link: <nombre>` y la URL, o un PR que quite o sustituya la entrada en los dos README.
+
+### Herramientas hechas por fluyeporlaweb
+
+El código de las herramientas que publicamos nosotros sigue viviendo en `tools/`. Si propones una herramienta *que deberíamos construir*, abre una issue y espera a un maintainer antes de enviar código. Contribuir a la lista (el README) no exige eso.
 
 ### Código de conducta
 
