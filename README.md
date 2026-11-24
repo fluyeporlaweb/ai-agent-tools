@@ -14,20 +14,20 @@ English · [Español](README.es.md)
 
 - [What this is](#what-this-is)
 - [Protocols and standards](#protocols-and-standards) (7)
-- [Agent frameworks and SDKs](#agent-frameworks-and-sdks) (24)
-- [Coding agents and IDEs](#coding-agents-and-ides) (20)
+- [Agent frameworks and SDKs](#agent-frameworks-and-sdks) (27)
+- [Coding agents and IDEs](#coding-agents-and-ides) (21)
 - [MCP SDKs, registry and tooling](#mcp-sdks-registry-and-tooling) (15)
 - [MCP servers](#mcp-servers) (28)
-- [MCP clients and hosts](#mcp-clients-and-hosts) (5)
-- [Browser, computer use and sandboxes](#browser-computer-use-and-sandboxes) (15)
-- [Data, scraping and search APIs](#data-scraping-and-search-apis) (8)
-- [Memory, RAG and vector stores](#memory-rag-and-vector-stores) (10)
+- [MCP clients and hosts](#mcp-clients-and-hosts) (6)
+- [Browser, computer use and sandboxes](#browser-computer-use-and-sandboxes) (16)
+- [Data, scraping and search APIs](#data-scraping-and-search-apis) (9)
+- [Memory, RAG and vector stores](#memory-rag-and-vector-stores) (11)
 - [Observability, evals and tracing](#observability-evals-and-tracing) (10)
 - [LLM APIs, routers and runtimes](#llm-apis-routers-and-runtimes) (21)
 - [Workflow and orchestration](#workflow-and-orchestration) (8)
 - [Voice, speech and realtime](#voice-speech-and-realtime) (11)
-- [Guardrails and safety](#guardrails-and-safety) (7)
-- [Agent skills and tool marketplaces](#agent-skills-and-tool-marketplaces) (5)
+- [Guardrails and safety](#guardrails-and-safety) (8)
+- [Agent skills and tool marketplaces](#agent-skills-and-tool-marketplaces) (12)
 - [Built by fluyeporlaweb](#built-by-fluyeporlaweb) (2)
 - [Sponsors](#sponsors)
 - [Related lists](#related-lists)
@@ -79,6 +79,9 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [DSPy](https://dspy.ai) - Framework for programming—not prompting—LMs, with optimizable signatures that agents can use as modules.
 - [Claude Agent SDK](https://platform.claude.com/docs/en/agent-sdk/overview) - Anthropic's SDK for building agents with Claude, tools and the same harness used by Claude Code.
 - [Google Gen AI SDK](https://ai.google.dev) - Official Google SDK for Gemini, including function calling, thinking and live/multimodal APIs.
+- [AstrBot](https://github.com/AstrBotDevs/AstrBot) - Open-source framework for AI assistants that plug into messaging platforms such as Telegram and Discord, with LLMs and plugins.
+- [learnharness](https://github.com/amosblomqvist/learnharness) - An agent harness built for learning difficult topics, with an agent-native loop rather than a static tutor.
+- [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent LLM framework that models a trading desk, with agents that debate and analyse financial markets.
 
 ## Coding agents and IDEs
 
@@ -102,6 +105,7 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [Grok Bot](https://grok.com) - Coding and operations agent from xAI that can use tools, browse and work across connected apps.
 - [Devin](https://devin.ai) - Cognition's autonomous software engineer: a cloud agent that plans, codes and opens pull requests.
 - [Augment Code](https://www.augmentcode.com) - Coding agent and context engine built for large codebases, with IDE and Slack integrations.
+- [t3code](https://github.com/pingdotgg/t3code) - Remote control for Claude Code, Codex and other coding agents, so you can steer them from any computer or phone.
 
 ## MCP SDKs, registry and tooling
 
@@ -159,6 +163,7 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [LibreChat](https://www.librechat.ai) - Open-source ChatGPT-style UI with MCP, agents, and many model providers.
 - [Open WebUI](https://openwebui.com) - Self-hosted web UI for local and remote models, with MCP and tool support.
 - [Cherry Studio](https://github.com/CherryHQ/cherry-studio) - Open-source desktop client for many LLM providers, with MCP support.
+- [OpenBot](https://github.com/CopilotKit/OpenBot) - Self-hosted workspace for AI coworkers, as a desktop app or on Kubernetes: agents use the browser and tools, and wait for your approval before they act.
 
 ## Browser, computer use and sandboxes
 
@@ -177,6 +182,7 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [Firecrawl](https://www.firecrawl.dev) - API and MCP for turning websites into clean markdown or structured data for agents.
 - [Computer Use (Anthropic)](https://platform.claude.com/docs/en/agents-and-tools/computer-use) - Anthropic's official computer-use capability: Claude can operate a desktop via screenshots and actions.
 - [Scrapybara](https://scrapybara.com) - Cloud Ubuntu desktops and browsers that agents can control through an SDK.
+- [agent-browser](https://github.com/vercel-labs/agent-browser) - Vercel's browser automation CLI built for AI agents, so they can click, type and inspect pages from a terminal.
 
 ## Data, scraping and search APIs
 
@@ -188,6 +194,7 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [SerpAPI](https://serpapi.com) - Hosted real-time API for Google and other search-engine results.
 - [Bright Data](https://brightdata.com) - Web data platform with unlocking, scraping APIs and agent-oriented datasets.
 - [Perplexity API](https://docs.perplexity.ai) - Sonar API for grounded, cited web answers that agents can call as a research tool.
+- [Scrapling](https://github.com/D4Vinci/Scrapling) - Python web-scraping framework that covers fetching, parsing and anti-bot cases in one toolkit an agent can call.
 
 ## Memory, RAG and vector stores
 
@@ -201,6 +208,7 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [pgvector](https://github.com/pgvector/pgvector) - PostgreSQL extension for vector similarity search, the default for many self-hosted RAG stacks.
 - [LanceDB](https://lancedb.com) - Embedded multimodal vector database built on Lance, good for local agent memory.
 - [Graphiti](https://github.com/getzep/graphiti) - Zep's open-source framework for building real-time, temporally-aware knowledge graphs for agents.
+- [claude-mem](https://github.com/thedotmack/claude-mem) - Persistent memory for coding agents: it captures what the agent does, compresses it and injects relevant context into later sessions.
 
 ## Observability, evals and tracing
 
@@ -273,6 +281,7 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [Lakera Guard](https://www.lakera.ai) - Security platform focused on prompt injection and runtime protection for AI apps.
 - [Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) - Managed content filters, denied topics and grounding checks for models on Bedrock.
 - [Invariant](https://invariantlabs.ai) - Security and policy layer for agents: inspect traces, constrain tools and catch prompt injection.
+- [SkillSpector](https://github.com/NVIDIA/SkillSpector) - NVIDIA's security scanner for agent skills: it looks for vulnerabilities, malicious patterns, prompt injection and supply-chain risk before you install them.
 
 ## Agent skills and tool marketplaces
 
@@ -281,6 +290,13 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 - [vercel-labs/skills](https://github.com/vercel-labs/skills) - CLI and registry (`npx skills`) for installing Agent Skills into a project.
 - [Composio](https://composio.dev) - Managed tool marketplace and SDK so agents can call thousands of third-party APIs with auth handled.
 - [Arcade](https://arcade.dev) - Tool and auth platform for agents, with a catalog of integrations and an MCP-friendly runtime.
+- [impeccable](https://github.com/pbakaus/impeccable) - A design vocabulary for coding agents: skills to steer polish and critique, and to catch generic AI-made work before it ships.
+- [hallmark](https://github.com/Nutlope/hallmark) - A design skill that helps Claude Code, Cursor and Codex avoid generic AI-looking interfaces.
+- [claude-seo](https://github.com/AgriciDaniel/claude-seo) - Agent skill for technical SEO and AI-search (GEO/AEO) audits, with sub-skills for schema, citations, agent readiness and reports.
+- [Cloudflare security-audit-skill](https://github.com/cloudflare/security-audit-skill) - Official Cloudflare skill for multi-phase security audits, with independently verified, machine-readable findings.
+- [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) - A set of agent skills for running an Instagram account: research, hooks, captions and a more human publishing tone.
+- [last30days-skill](https://github.com/mvanhorn/last30days-skill) - Agent skill that researches a topic across Reddit, X, YouTube, Hacker News, Polymarket and the web, then writes a sourced brief.
+- [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) - Local FFmpeg tools with a machine-readable contract and an MCP server, so agents can cut, subtitle and export video without API keys.
 
 ## Built by fluyeporlaweb
 
