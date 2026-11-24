@@ -4,48 +4,48 @@ Instructions for coding agents working in this repository.
 
 ## What this repo is
 
-`ai-agent-tools` is the public monorepo where fluyeporlaweb builds and publishes tools for AI agents: MCP servers, agent skills and scripts. It is documentation-first: the root README and every tool README are written for humans and for agents.
+`ai-agent-tools` is a public, bilingual awesome list of tools, APIs, MCP servers, SDKs and frameworks for AI agents, maintained by fluyeporlaweb. The main artifacts are `README.md` (English) and `README.es.md` (Spanish). They must stay in sync.
 
-The maintainer is Pablo ([@fluyeporlaweb](https://x.com/fluyeporlaweb)). The project is MIT licensed.
+The maintainer is Pablo ([@fluyeporlaweb](https://x.com/fluyeporlaweb)). The project is MIT licensed. The sponsor page is https://fluyeporlaweb.com/patrocina.
+
+This is not a monorepo of tools we invent on every commit. The directory `tools/` is reserved for tools that fluyeporlaweb itself builds and publishes. Most contributions are new or updated list entries.
 
 ## Repository layout
 
 ```
 .
-├── README.md            # main README, English
-├── README.es.md         # Spanish README, same structure
+├── README.md            # main list, English
+├── README.es.md         # same list, Spanish
 ├── AGENTS.md            # this file
 ├── CONTRIBUTING.md      # contribution rules, EN + ES
 ├── SECURITY.md          # vulnerability reporting
-├── tools/
-│   ├── README.md        # how the monorepo is laid out
-│   ├── README.es.md
-│   ├── _template/       # starting point for a new tool
-│   └── <tool-name>/     # one directory per tool
-├── .github/             # issue and PR templates
 ├── llms.txt             # short project summary for LLMs
+├── tools/               # tools built by fluyeporlaweb (optional)
+│   ├── README.md
+│   ├── README.es.md
+│   └── _template/       # starting point for a tool we publish
+└── .github/             # issue and PR templates, logo
 ```
 
-## Adding a tool
+## Adding or changing a list entry
 
-1. Copy `tools/_template/` to `tools/<tool-name>/`. Use lowercase and hyphens for the directory name.
-2. Fill in `README.md` and `README.es.md`. Both are required and must stay in sync. Do not publish one language and leave the other as a placeholder.
-3. Update `TOOL.md` with the tool type and a one-line description.
-4. Put the code in `src/`. Add tests if the tool contains code. If it is a skill, keep the `SKILL.md` in the tool directory.
-5. Add the tool to the table in the root `README.md` and `README.es.md`, and to `llms.txt`.
-6. Keep `.env.example` free of real values. Only document the variable names the tool needs.
+1. Add or edit the line in both `README.md` and `README.es.md`, in the same category, using the format `- [Name](url) - Description.`
+2. Update the category count in the Contents / Índice of both files.
+3. Do not invent facts. One sentence, no superlatives, no prices, no internal strategy.
+4. Do not add your own affiliate query parameters. Existing affiliate entries use `https://fluyeporlaweb.com/go/<slug>/?p=github-readme` and are marked *affiliate* / *afiliado*.
+5. Do not copy blocks from other awesome lists. Select, deduplicate and write our own descriptions.
+6. Verify the URL (it should respond) before opening a pull request.
+
+## Adding a tool that we build
+
+1. Copy `tools/_template/` to `tools/<tool-name>/`. Use lowercase and hyphens.
+2. Write `README.md` and `README.es.md` and keep them in sync.
+3. Mention the tool in the "Built by fluyeporlaweb" / "Hecho por fluyeporlaweb" section of both root READMEs, and in `llms.txt`.
+4. Keep `.env.example` free of real secrets.
 
 ## Conventions
 
-- Public docs are written in English and Spanish. English is the source of truth for the main README; the Spanish version should read naturally, not as a literal translation.
-- Use MIT for new code. Do not add a different license without asking the maintainer.
-- Never commit secrets, tokens, API keys, `.env` files or credentials. `.env` is gitignored; `.env.example` is not.
-- Do not invent tools, packages, badges or links that are not part of the project.
-- Keep the tone concrete and short. Avoid superlatives and marketing filler.
-- Do not add prices or internal planning notes to public files.
-- If you change a tool's behavior, update its README and, when present, its tests.
-- Run the tool's own tests and linters before proposing a change. There is no root-level build yet; each tool is responsible for its own setup.
-
-## Status markers
-
-`Coming soon` / `Próximamente` in the tools table is valid for tools that are announced but not yet in the monorepo. Do not add placeholder code for a tool that is still marked as coming soon.
+- Public docs are written in English and Spanish. Spanish should read as Spanish of Spain, not as a literal translation.
+- Do not commit secrets, tokens, `.env` files or API keys.
+- Do not mention pricing, sponsorship packages, SEO tactics or internal decisions in public files.
+- Leave the logo header (`logo.png` in `.github/assets/`) at the top of both READMEs.
