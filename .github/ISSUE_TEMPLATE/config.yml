@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/fluyeporlaweb/agent-tools/blob/main/CONTRIBUTING.md
+    about: Read this before proposing a tool or opening a pull request.
+  - name: Security policy
+    url: https://github.com/fluyeporlaweb/agent-tools/security/policy
+    about: Report vulnerabilities privately. Do not open a public issue.
