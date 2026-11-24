@@ -1,0 +1,66 @@
+name: Bug report
+description: Report a problem with a tool or with the repository.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Do not include secrets, tokens or private data.
+        For security issues, follow [SECURITY.md](https://github.com/fluyeporlaweb/agent-tools/blob/main/SECURITY.md) instead.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or area
+      description: Which tool or part of the repo is affected?
+      placeholder: mcp-x-intelligence, README, tooling...
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the problem and any error message.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Tool version, package version or commit hash.
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Claude
+        - Claude Code
+        - Cursor
+        - Windsurf
+        - Other MCP client
+        - Not applicable
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before opening this one.
+          required: true
+        - label: I removed secrets and private data from logs and examples.
+          required: true
