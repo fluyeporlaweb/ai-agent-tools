@@ -1,11 +1,12 @@
 # Agent Tools
 
-> A curated directory of tools, APIs, MCP servers, SDKs and frameworks for AI agents, in English and Spanish, maintained by fluyeporlaweb.
+> A curated directory of open-source AI tools for marketing and agents, in English and Spanish, maintained by fluyeporlaweb.
 
-Maintainer: Pablo, fluyeporlaweb (https://x.com/fluyeporlaweb).
+Maintainer: fluyeporlaweb (https://x.com/fluyeporlaweb).
 License: MIT (https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/LICENSE).
 Repository: https://github.com/fluyeporlaweb/ai-agent-tools
 Sponsor: https://fluyeporlaweb.com/patrocina
+Email: colab@fluyeporlaweb.com
 
 ## What this is
 
@@ -13,7 +14,7 @@ An awesome list, not a monorepo of every tool we build. Entries are curated (one
 
 ## Built by fluyeporlaweb
 
-- mcp-x-intelligence: MCP server for X/Twitter research. Status: coming soon. Standalone repo: https://github.com/fluyeporlaweb/mcp-x-intelligence
+- prospectforge: open-source B2B lead pipeline (discover, qualify, draft). Dry-run by default. Never sends email. https://github.com/fluyeporlaweb/prospectforge
 - Apify actors: scrapers and automations published at https://apify.com/fluyeporlaweb
 
 ## Docs
@@ -28,3 +29,4 @@ An awesome list, not a monorepo of every tool we build. Entries are curated (one
 - Website: https://fluyeporlaweb.com
 - X: https://x.com/fluyeporlaweb
 - Telegram: https://t.me/fluyeporlaweb
+- Email: colab@fluyeporlaweb.com

@@ -2,7 +2,7 @@
 
 # Agent Tools
 
-**Un directorio curado de herramientas, APIs, servidores MCP, SDKs y frameworks para agentes de IA.** Creado y mantenido por [fluyeporlaweb](https://fluyeporlaweb.com). Cada enlace está comprobado; las entradas están elegidas, no volcadas.
+**Un directorio curado de herramientas open source de IA para marketing y agentes:** servidores MCP, skills, SDKs y flujos de trabajo. Creado y mantenido por [fluyeporlaweb](https://fluyeporlaweb.com). Cada enlace está comprobado; las entradas están elegidas, no volcadas.
 
 [English](README.md) · Español
 
@@ -37,7 +37,7 @@
 
 ## Qué es esto
 
-Esta es una lista tipo awesome de **herramientas para agentes de IA**: frameworks y SDKs, agentes de código, servidores y clientes MCP, runtimes de navegador y sandbox, APIs de datos y búsqueda, memoria y RAG, observabilidad, pasarelas de LLM, flujos de trabajo, voz, guardrails y skills de agentes.
+Esta es una lista tipo awesome de **herramientas open source de IA para equipos de marketing y agentes**: frameworks y SDKs, agentes de código, servidores y clientes MCP, runtimes de navegador y sandbox, APIs de datos y búsqueda, memoria y RAG, observabilidad, pasarelas de LLM, flujos de trabajo, voz, guardrails y skills de agentes.
 
 No es un volcado de cada repositorio que menciona “agent”. Cada entrada tiene una línea de explicación y un enlace que responde. También hay una sección pequeña para las herramientas [hechas por fluyeporlaweb](#hecho-por-fluyeporlaweb).
 
@@ -300,12 +300,12 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 
 ## Hecho por fluyeporlaweb
 
-- [mcp-x-intelligence](https://github.com/fluyeporlaweb/mcp-x-intelligence) - Servidor MCP para investigación en X/Twitter, hecho por fluyeporlaweb. Pronto estará en este repo; por ahora usa el repositorio aparte.
+- [prospectforge](https://github.com/fluyeporlaweb/prospectforge) - Pipeline open source de leads B2B: descubre contactos, los cualifica contra tu ICP y redacta el primer mensaje. Por defecto va en dry-run y nunca envía correos.
 - [Apify — fluyeporlaweb actors](https://fluyeporlaweb.com/go/apify-fluyeporlaweb/?p=github-readme) - Actors abiertos que publicamos en Apify (empleo, RSS, BOE, licitaciones) que un agente puede ejecutar vía API o MCP de Apify. *(afiliado)*
 
 ## Patrocinadores
 
-Este proyecto es gratuito y de código abierto. Las marcas que lo apoyan aparecen aquí.
+Este proyecto es gratuito y de código abierto. Las marcas que quieran aparecer aquí o colaborar pueden escribir a [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) o visitar [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina).
 
 **[Tu marca aquí](https://fluyeporlaweb.com/patrocina)**
 
@@ -336,3 +336,4 @@ Si trabajas en este repo con un agente de código, indícale [AGENTS.md](AGENTS.
 - Web: [fluyeporlaweb.com](https://fluyeporlaweb.com)
 - X: [@fluyeporlaweb](https://x.com/fluyeporlaweb)
 - Telegram: [t.me/fluyeporlaweb](https://t.me/fluyeporlaweb)
+- Correo: [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com)

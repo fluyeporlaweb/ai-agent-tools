@@ -2,7 +2,7 @@
 
 # Agent Tools
 
-**A curated directory of tools, APIs, MCP servers, SDKs and frameworks for AI agents.** Built and maintained by [fluyeporlaweb](https://fluyeporlaweb.com). Every link is checked; entries are chosen, not dumped.
+**A curated directory of open-source AI tools for marketing and agents:** MCP servers, skills, SDKs and workflows. Built and maintained by [fluyeporlaweb](https://fluyeporlaweb.com). Every link is checked; entries are chosen, not dumped.
 
 English · [Español](README.es.md)
 
@@ -37,7 +37,7 @@ English · [Español](README.es.md)
 
 ## What this is
 
-This is a curated awesome list of **tools for AI agents**: frameworks and SDKs, coding agents, MCP servers and clients, browser and sandbox runtimes, data and search APIs, memory and RAG, observability, LLM gateways, workflows, voice, guardrails and agent skills.
+This is a curated awesome list of **open-source AI tools for marketing teams and agents**: frameworks and SDKs, coding agents, MCP servers and clients, browser and sandbox runtimes, data and search APIs, memory and RAG, observability, LLM gateways, workflows, voice, guardrails and agent skills.
 
 It is not a dump of every repo with “agent” in the name. Each entry has a one-line description and a working link. We also keep a small section for tools [built by fluyeporlaweb](#built-by-fluyeporlaweb).
 
@@ -300,12 +300,12 @@ Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) 
 
 ## Built by fluyeporlaweb
 
-- [mcp-x-intelligence](https://github.com/fluyeporlaweb/mcp-x-intelligence) - MCP server for X/Twitter research, built by fluyeporlaweb. Coming soon into this repo; use the standalone repository today.
+- [prospectforge](https://github.com/fluyeporlaweb/prospectforge) - Open-source B2B lead pipeline: discover contacts, qualify them against your ICP and draft outreach. Dry-run by default. Never sends email.
 - [Apify — fluyeporlaweb actors](https://fluyeporlaweb.com/go/apify-fluyeporlaweb/?p=github-readme) - Open actors we publish on Apify (jobs, RSS, BOE, public tenders) that an agent can run through the Apify API or MCP. *(affiliate)*
 
 ## Sponsors
 
-This project is free and open source. Brands that support the work appear here.
+This project is free and open source. Brands that want to appear here or collaborate with us can write to [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) or visit [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina).
 
 **[Your brand here](https://fluyeporlaweb.com/patrocina)**
 
@@ -336,3 +336,4 @@ If you work on this repo with a coding agent, point it to [AGENTS.md](AGENTS.md)
 - Website: [fluyeporlaweb.com](https://fluyeporlaweb.com)
 - X: [@fluyeporlaweb](https://x.com/fluyeporlaweb)
 - Telegram: [t.me/fluyeporlaweb](https://t.me/fluyeporlaweb)
+- Email: [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com)
