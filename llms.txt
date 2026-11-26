@@ -2,7 +2,7 @@
 
 > A curated directory of open-source AI tools for marketing and agents, in English and Spanish, maintained by fluyeporlaweb.
 
-Maintainer: Pablo, fluyeporlaweb (https://x.com/fluyeporlaweb).
+Maintainer: fluyeporlaweb (https://x.com/fluyeporlaweb).
 License: MIT (https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/LICENSE).
 Repository: https://github.com/fluyeporlaweb/ai-agent-tools
 Sponsor: https://fluyeporlaweb.com/patrocina
