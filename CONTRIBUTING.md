@@ -22,12 +22,13 @@ Paid products are welcome when they are widely used by people who build agents a
 One line per entry, in the right category, in both READMEs:
 
 ```md
-- [Name](https://example.com) - One-line description that says what it is and why an agent builder would use it.
+- [Name](https://example.com) - One-line description that says what it is and why an agent builder would use it (`Open Source`).
 ```
 
 Rules:
 
 - Description: one line, starts with a capital letter, ends with a period. English in `README.md`, Spanish of Spain in `README.es.md`.
+- Optional tag at the end of the description, in backticks: `Open Source`, `Free` or `Freemium`. Use only one, and only when it helps.
 - No marketing superlatives ("the best", "ultimate", "revolutionary").
 - Do not add affiliate parameters or tracking codes of your own. Maintainer-managed affiliate links already go through `https://fluyeporlaweb.com/go/` and are marked *affiliate* / *afiliado*.
 - Keep both files in sync: an entry added to one must be added to the other in the same pull request.
@@ -53,6 +54,14 @@ If a new entry does not fit any existing category, open an issue first and propo
    ```
 
    A `200`–`399` response is expected. Some sites block bots with `403`; mention that in the PR.
+
+   If you have [lychee](https://github.com/lycheeverse/lychee) installed, also run it on both READMEs and `llms.txt` (this is what the Link Check workflow runs on every pull request):
+
+   ```sh
+   lychee --no-progress README.md README.es.md llms.txt
+   ```
+
+   If lychee fails in CI, the pull request cannot be merged until the link is fixed or replaced.
 
 5. Open the pull request using the template.
 
@@ -90,12 +99,13 @@ Los productos de pago caben si los usa mucha gente que construye agentes y tiene
 Una línea por entrada, en la categoría correcta, en los dos README:
 
 ```md
-- [Nombre](https://example.com) - Una línea que dice qué es y por qué le sirve a quien construye agentes.
+- [Nombre](https://example.com) - Una línea que dice qué es y por qué le sirve a quien construye agentes (`Open Source`).
 ```
 
 Normas:
 
 - Descripción: una línea, empieza con mayúscula y termina con punto. Inglés en `README.md`, español de España en `README.es.md`.
+- Etiqueta opcional al final de la descripción, entre backticks: `Open Source`, `Free` o `Freemium`. Solo una, y solo cuando aporte contexto.
 - Sin superlativos de marketing ("the best", "ultimate", "revolucionario").
 - No añadas parámetros de afiliado ni códigos de seguimiento por tu cuenta. Los enlaces de afiliado que mantiene el proyecto pasan por `https://fluyeporlaweb.com/go/` y van marcados con *affiliate* / *afiliado*.
 - Los dos ficheros van a la par: si añades una entrada en uno, va en el otro en el mismo pull request.
@@ -114,7 +124,7 @@ Si una entrada nueva no encaja en ninguna categoría, abre una issue y propone u
 1. Haz un fork del repositorio.
 2. Añade la entrada en `README.md` y `README.es.md`, en la categoría correcta.
 3. Actualiza el recuento de esa categoría en el índice de los dos ficheros.
-4. Comprueba el enlace con `curl` (véase la sección en inglés). Se espera un `200`–`399`.
+4. Comprueba el enlace con `curl` o `lychee` (véase la sección en inglés). Se espera un `200`–`399`. El CI de Link Check corre en cada PR y, si falla, no se puede fusionar.
 5. Abre el pull request con la plantilla.
 
 No envíes un PR que solo copie un bloque de otra lista awesome.

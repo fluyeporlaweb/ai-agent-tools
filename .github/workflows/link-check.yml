@@ -1,0 +1,86 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "README.es.md"
+      - "llms.txt"
+      - ".github/workflows/link-check.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - "README.es.md"
+      - "llms.txt"
+      - ".github/workflows/link-check.yml"
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          # Some live sites time out or flake TLS from GitHub-hosted runners.
+          # fail stays false so a later step can ignore timeouts and only
+          # fail the job on actual broken-link errors.
+          args: >-
+            --cache
+            --max-cache-age 1d
+            --max-retries 2
+            --timeout 20
+            --user-agent "Mozilla/5.0 (compatible; fluyeporlaweb-linkcheck; +https://fluyeporlaweb.com)"
+            --accept 200,204,206,301,302,307,308,429,403
+            --exclude "img.shields.io"
+            --exclude "github.com/.*/stargazers"
+            './README.md'
+            './README.es.md'
+            './llms.txt'
+
+      - name: Fail on broken links, not runner timeouts
+        run: |
+          set -euo pipefail
+          report="lychee/out.md"
+          if [[ ! -f "$report" ]]; then
+            echo "Missing $report"
+            exit 1
+          fi
+          cat "$report"
+          errors="$(python3 -c 'from pathlib import Path; import re; text = Path("lychee/out.md").read_text(encoding="utf-8", errors="replace"); match = re.search(r"Errors\s*\|\s*(\d+)", text); print(match.group(1) if match else "missing")')"
+          if [[ "$errors" == "missing" ]]; then
+            echo "Could not parse the Errors count from the lychee report"
+            exit 1
+          fi
+          if [[ "$errors" != "0" ]]; then
+            echo "Lychee reported $errors broken-link error(s)"
+            exit 1
+          fi
+          echo "No broken-link errors (timeouts from GitHub-hosted runners are ignored)"
+
+      - name: Create issue on failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Broken links detected in READMEs"
+          content-filepath: ./lychee/out.md
+          labels: |
+            broken-links

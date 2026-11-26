@@ -1,6 +1,6 @@
 # Agent Tools
 
-> A curated directory of open-source AI tools for marketing and agents, in English and Spanish, maintained by fluyeporlaweb.
+> A curated directory of open-source AI agent tools for marketing and growth teams, in English and Spanish, maintained by fluyeporlaweb (Fluye Labs).
 
 Maintainer: fluyeporlaweb (https://x.com/fluyeporlaweb).
 License: MIT (https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/LICENSE).
@@ -10,7 +10,7 @@ Email: colab@fluyeporlaweb.com
 
 ## What this is
 
-An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link). Some links are affiliates and go through https://fluyeporlaweb.com/go/; they are marked in the README.
+An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link): agent frameworks, coding agents, MCP servers and clients, browser automation and sandboxes, memory and RAG, observability, and prospecting / SEO tools. Some links are affiliates (marked in the README); see https://fluyeporlaweb.com/legal/afiliacion/. Links are re-checked weekly.
 
 ## Built by fluyeporlaweb
 
