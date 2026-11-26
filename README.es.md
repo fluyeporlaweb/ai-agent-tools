@@ -2,32 +2,34 @@
 
 # Agent Tools
 
-**Un directorio curado de herramientas open source de IA para marketing y agentes:** servidores MCP, skills, SDKs y flujos de trabajo. Creado y mantenido por [fluyeporlaweb](https://fluyeporlaweb.com). Cada enlace está comprobado; las entradas están elegidas, no volcadas.
+**Un directorio curado de herramientas open source para agentes de IA**, pensado para equipos de marketing y crecimiento técnico: **frameworks de agentes**, **agentes de código y CLIs**, **servidores y clientes MCP**, automatización de navegador y sandboxes, memoria y RAG, observabilidad, y **flujos de prospección y SEO**. Lo construye y mantiene [fluyeporlaweb](https://fluyeporlaweb.com). Cada enlace se comprueba; las entradas se eligen, no se vierten a lo loco.
 
 [English](README.md) · Español
 
 [![GitHub stars](https://img.shields.io/github/stars/fluyeporlaweb/ai-agent-tools?style=flat)](https://github.com/fluyeporlaweb/ai-agent-tools/stargazers)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Enlaces comprobados cada semana](https://img.shields.io/badge/links-checked%20weekly-blue.svg)](.github/workflows/link-check.yml)
 
 ## Índice
 
 - [Qué es esto](#qué-es-esto)
-- [Protocolos y estándares](#protocolos-y-estándares) (7)
-- [Frameworks y SDKs de agentes](#frameworks-y-sdks-de-agentes) (27)
-- [Agentes de código e IDEs](#agentes-de-código-e-ides) (21)
-- [SDKs, registro y herramientas MCP](#sdks-registro-y-herramientas-mcp) (15)
-- [Servidores MCP](#servidores-mcp) (28)
-- [Clientes y hosts MCP](#clientes-y-hosts-mcp) (6)
-- [Navegador, computer use y sandboxes](#navegador-computer-use-y-sandboxes) (16)
-- [APIs de datos, scraping y búsqueda](#apis-de-datos-scraping-y-búsqueda) (9)
-- [Memoria, RAG y bases vectoriales](#memoria-rag-y-bases-vectoriales) (11)
-- [Observabilidad, evals y trazas](#observabilidad-evals-y-trazas) (10)
-- [APIs de LLM, routers y runtimes](#apis-de-llm-routers-y-runtimes) (21)
-- [Flujos de trabajo y orquestación](#flujos-de-trabajo-y-orquestación) (8)
-- [Voz, habla y tiempo real](#voz-habla-y-tiempo-real) (11)
-- [Guardrails y seguridad](#guardrails-y-seguridad) (8)
-- [Skills de agentes y marketplaces de tools](#skills-de-agentes-y-marketplaces-de-tools) (12)
+- [Protocolos y estándares](#protocolos-y-estándares) (8)
+- [Frameworks y SDKs de agentes](#frameworks-y-sdks-de-agentes) (34)
+- [Agentes de código e IDEs](#agentes-de-código-e-ides) (28)
+- [SDKs, registro y herramientas MCP](#sdks-registro-y-herramientas-mcp) (18)
+- [Servidores MCP](#servidores-mcp) (38)
+- [Clientes y hosts MCP](#clientes-y-hosts-mcp) (12)
+- [Navegador, computer use y sandboxes](#navegador-computer-use-y-sandboxes) (24)
+- [APIs de datos, scraping y búsqueda](#apis-de-datos-scraping-y-búsqueda) (14)
+- [Memoria, RAG y bases vectoriales](#memoria-rag-y-bases-vectoriales) (19)
+- [Observabilidad, evals y trazas](#observabilidad-evals-y-trazas) (16)
+- [APIs de LLM, routers y runtimes](#apis-de-llm-routers-y-runtimes) (27)
+- [Flujos de trabajo y orquestación](#flujos-de-trabajo-y-orquestación) (14)
+- [Voz, habla y tiempo real](#voz-habla-y-tiempo-real) (15)
+- [Guardrails y seguridad](#guardrails-y-seguridad) (12)
+- [Skills de agentes y marketplaces de tools](#skills-de-agentes-y-marketplaces-de-tools) (13)
+- [Marketing, SEO y prospección](#marketing-seo-y-prospección) (10)
 - [Hecho por fluyeporlaweb](#hecho-por-fluyeporlaweb) (2)
 - [Patrocinadores](#patrocinadores)
 - [Listas relacionadas](#listas-relacionadas)
@@ -37,7 +39,7 @@
 
 ## Qué es esto
 
-Esta es una lista tipo awesome de **herramientas open source de IA para equipos de marketing y agentes**: frameworks y SDKs, agentes de código, servidores y clientes MCP, runtimes de navegador y sandbox, APIs de datos y búsqueda, memoria y RAG, observabilidad, pasarelas de LLM, flujos de trabajo, voz, guardrails y skills de agentes.
+Esta es una lista tipo awesome de **herramientas open source para agentes de IA, pensada para equipos de marketing y crecimiento**: frameworks y SDKs, agentes de código, servidores y clientes MCP, runtimes de navegador y sandbox, APIs de datos y búsqueda, memoria y RAG, observabilidad, pasarelas de LLM, flujos de trabajo, voz, guardrails, skills de agentes, y herramientas de prospección y SEO.
 
 No es un volcado de cada repositorio que menciona “agent”. Cada entrada tiene una línea de explicación y un enlace que responde. También hay una sección pequeña para las herramientas [hechas por fluyeporlaweb](#hecho-por-fluyeporlaweb).
 
@@ -52,6 +54,7 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [AG-UI](https://docs.ag-ui.com) - Protocolo abierto para conectar backends de agentes con aplicaciones de usuario mediante un flujo de eventos estándar.
 - [llms.txt](https://llmstxt.org) - Propuesta de estándar para un fichero /llms.txt que indica a los modelos de lenguaje cómo leer un sitio o proyecto.
 - [OpenTelemetry GenAI](https://opentelemetry.io/docs/specs/semconv/gen-ai/) - Convenciones semánticas para trazar aplicaciones de IA generativa y agentes con OpenTelemetry.
+- [Agent Communication Protocol (ACP)](https://agentcommunicationprotocol.dev) - Protocolo abierto que permite a los agentes descubrirse y comunicarse mediante un formato de mensajes compartido (`Open Source`).
 
 ## Frameworks y SDKs de agentes
 
@@ -82,6 +85,13 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [AstrBot](https://github.com/AstrBotDevs/AstrBot) - Framework de código abierto para asistentes de IA que se integran con plataformas de mensajería como Telegram y Discord, con LLMs y plugins.
 - [learnharness](https://github.com/amosblomqvist/learnharness) - Un harness de agentes pensado para aprender temas difíciles, con un bucle nativo de agente en lugar de un tutor estático.
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Framework multiagente de LLM que modela una mesa de trading, con agentes que debaten y analizan mercados financieros.
+- [CopilotKit](https://www.copilotkit.ai) - SDK para añadir copilotos de IA a aplicaciones, con hooks y componentes de interfaz para asistentes integrados (`Open Source`).
+- [Flowise](https://flowiseai.com) - Constructor visual para ensamblar cadenas de LLM y agentes con nodos conectados, útil para prototipos rápidos (`Open Source`).
+- [CAMEL](https://www.camel-ai.org) - Framework para investigación con múltiples agentes y escenarios de roles, usado para estudiar cómo cooperan en tareas (`Open Source`).
+- [Langroid](https://langroid.github.io/langroid/) - Framework que convierte las interacciones con LLM en agentes orientados a tareas, con mensajes y uso de herramientas (`Open Source`).
+- [mcp-agent](https://github.com/lastmile-ai/mcp-agent) - Biblioteca para crear agentes que combinan servidores MCP y herramientas con un modelo de orquestación claro (`Open Source`).
+- [Suna](https://github.com/kortix-ai/suna) - Agente abierto y generalista que gestiona tareas de investigación, datos y navegador desde una conversación (`Open Source`).
+- [BeeAI Framework](https://github.com/i-am-bee/bee-agent-framework) - Framework para crear y ejecutar flujos multiagente con agentes portátiles y herramientas (`Open Source`).
 
 ## Agentes de código e IDEs
 
@@ -106,6 +116,13 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Devin](https://devin.ai) - Ingeniero de software autónomo de Cognition: un agente en la nube que planifica, programa y abre pull requests.
 - [Augment Code](https://www.augmentcode.com) - Agente de código y motor de contexto diseñado para bases de código grandes, con integraciones de IDE y Slack.
 - [t3code](https://github.com/pingdotgg/t3code) - Control remoto para Claude Code, Codex y otros agentes de código, para dirigirlos desde cualquier ordenador o teléfono.
+- [Crush](https://github.com/charmbracelet/crush) - Agente de programación en terminal que edita archivos, ejecuta comandos y ayuda con el trabajo en repositorios desde la línea de comandos (`Open Source`).
+- [Tabby](https://tabby.tabbyml.com) - Asistente de código autoalojado que completa y explica código dentro del editor mientras trabajas (`Open Source`).
+- [Void](https://voideditor.com) - Editor de código abierto pensado para programar con IA, con chat y ediciones en línea en el mismo espacio de trabajo (`Open Source`).
+- [Qwen Code](https://github.com/QwenLM/qwen-code) - Agente de programación por línea de comandos que lee un repositorio y ayuda a implementar cambios con asistencia del modelo (`Open Source`).
+- [JetBrains AI](https://www.jetbrains.com/ai/) - Asistencia de IA integrada en los IDE de JetBrains para completar código, refactorizar y chatear dentro del editor (`Freemium`).
+- [Factory](https://factory.ai) - Espacio de trabajo de programación con IA donde los agentes gestionan tareas de software desde una interfaz compartida y el contexto del repositorio (`Freemium`).
+- [Plandex](https://github.com/plandex-ai/plandex) - Agente de programación que planifica cambios en varios archivos y los aplica con pasos revisables en la terminal (`Open Source`).
 
 ## SDKs, registro y herramientas MCP
 
@@ -124,6 +141,9 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Herramienta visual oficial para probar y depurar servidores MCP.
 - [MCPB](https://github.com/modelcontextprotocol/mcpb) - Formato de Desktop Extensions para empaquetar e instalar servidores MCP con un clic en apps de escritorio.
 - [Reference MCP servers](https://github.com/modelcontextprotocol/servers) - Monorepo oficial de servidores MCP de referencia (filesystem, memory, everything y más).
+- [Smithery](https://smithery.ai) - Registro y herramientas para encontrar y ejecutar servidores MCP con una configuración coherente (`Freemium`).
+- [PulseMCP](https://www.pulsemcp.com) - Directorio de servidores y clientes MCP que ayuda a descubrir integraciones y seguir los cambios del ecosistema (`Free`).
+- [Glama MCP](https://glama.ai/mcp) - Catálogo de servidores MCP con reseñas y detalles, útil para comparar las integraciones disponibles (`Free`).
 
 ## Servidores MCP
 
@@ -155,6 +175,16 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Tavily MCP](https://docs.tavily.com/documentation/mcp) - Servidor MCP para las APIs de búsqueda y extracción de Tavily, pensadas para agentes.
 - [Brave Search MCP](https://github.com/brave/brave-search-mcp-server) - Servidor MCP oficial de Brave Search para búsqueda web, de imágenes, noticias y vídeo.
 - [Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant) - Servidor MCP oficial de Qdrant para almacenar y recuperar memorias semánticas.
+- [AWS MCP Servers](https://github.com/awslabs/mcp) - Colección de servidores MCP que conectan agentes con servicios de AWS y flujos de infraestructura (`Open Source`).
+- [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server) - Servidor MCP que permite a los agentes trabajar con configuraciones de Terraform y definiciones de infraestructura (`Open Source`).
+- [Redis MCP](https://github.com/redis/mcp-redis) - Servidor MCP que da a los agentes acceso a Redis para caché, claves y operaciones de datos (`Open Source`).
+- [Pipedream MCP](https://mcp.pipedream.com) - Interfaz MCP para integraciones de aplicaciones, de modo que los agentes puedan disparar acciones en herramientas SaaS conectadas (`Freemium`).
+- [Serena](https://github.com/oraios/serena) - Servidor MCP que aporta a los agentes de código comprensión semántica de un codebase mediante servidores de lenguaje (`Open Source`).
+- [Browser MCP](https://browsermcp.io) - Servidor MCP que permite a los agentes manejar un navegador real para hacer clics, rellenar formularios y leer páginas (`Open Source`).
+- [21st.dev Magic MCP](https://21st.dev/magic) - Servidor MCP que aporta componentes de interfaz y fragmentos de diseño a los agentes de código cuando los piden (`Freemium`).
+- [PostgreSQL MCP](https://github.com/crystaldba/postgres-mcp) - Servidor MCP que permite a los agentes consultar e inspeccionar bases de datos PostgreSQL mediante un conjunto definido de herramientas (`Open Source`).
+- [Microsoft MCP servers](https://github.com/microsoft/mcp) - Servidores MCP de Microsoft para conectar agentes con productos, documentación y servicios de desarrollo (`Open Source`).
+- [Docker MCP Catalog](https://docs.docker.com/ai/mcp-catalog-and-toolkit/) - Catálogo de servidores MCP distribuidos a través de Docker para facilitar la instalación y mantener ejecuciones coherentes (`Open Source`).
 
 ## Clientes y hosts MCP
 
@@ -164,6 +194,12 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Open WebUI](https://openwebui.com) - Interfaz web autoalojada para modelos locales y remotos, con soporte de MCP y herramientas.
 - [Cherry Studio](https://github.com/CherryHQ/cherry-studio) - Cliente de escritorio open source para muchos proveedores de LLM, con soporte MCP.
 - [OpenBot](https://github.com/CopilotKit/OpenBot) - Workspace autoalojable para compañeros de trabajo de IA, como app de escritorio o en Kubernetes: los agentes usan el navegador y las herramientas, y esperan tu visto bueno antes de actuar.
+- [Jan](https://jan.ai) - Cliente de IA local que ejecuta modelos en tu máquina y admite integraciones con herramientas y MCP (`Open Source`).
+- [AnythingLLM](https://anythingllm.com) - Cliente para chatear con tus propios documentos y conectarlos con herramientas y agentes (`Open Source`).
+- [DeepChat](https://github.com/ThinkInAIXYZ/deepchat) - Cliente de chat extensible que admite varios proveedores, herramientas y conexiones MCP en una sola interfaz (`Open Source`).
+- [5ire](https://5ire.app) - Cliente de IA que reúne varios modelos, herramientas y un mercado MCP en una aplicación de escritorio (`Open Source`).
+- [TypingMind](https://www.typingmind.com) - Interfaz de chat para reunir tus claves de modelo, prompts y herramientas en un solo lugar (`Freemium`).
+- [Raycast](https://www.raycast.com) - Lanzador que se amplía con un directorio de aplicaciones, comandos de IA y acciones basadas en MCP (`Freemium`).
 
 ## Navegador, computer use y sandboxes
 
@@ -183,6 +219,14 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Computer Use (Anthropic)](https://platform.claude.com/docs/en/agents-and-tools/computer-use) - Capacidad oficial de computer use de Anthropic: Claude maneja un escritorio mediante capturas y acciones.
 - [Scrapybara](https://scrapybara.com) - Escritorios y navegadores Ubuntu en la nube que los agentes controlan a través de un SDK.
 - [agent-browser](https://github.com/vercel-labs/agent-browser) - CLI de automatización de navegador de Vercel, hecha para agentes de IA, para que hagan clic, escriban e inspeccionen páginas desde la terminal.
+- [Crawlee](https://crawlee.dev) - Biblioteca para rastrear y extraer datos web de forma fiable, con colas y reintentos integrados (`Open Source`).
+- [Browserless](https://www.browserless.io) - Servicio de automatización de navegador que ofrece una instancia remota de Chrome sin gestionar infraestructura (`Freemium`).
+- [Hyperbrowser](https://www.hyperbrowser.ai) - Infraestructura de navegador para agentes que necesitan sesiones headless, extracción y automatización a escala (`Freemium`).
+- [Lightpanda](https://lightpanda.io) - Navegador headless ligero centrado en automatización rápida y bajo consumo de recursos para agentes (`Open Source`).
+- [WebContainers](https://webcontainers.io) - Tecnología que ejecuta un entorno de desarrollo completo dentro del navegador para demos y entornos aislados de agentes (`Open Source`).
+- [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) - Entorno aislado para ejecutar código no fiable procedente de agentes con límites definidos y arranque rápido (`Freemium`).
+- [Dagger](https://dagger.io) - Motor de integración continua programable que permite a los agentes definir y ejecutar pipelines reproducibles como código (`Open Source`).
+- [Selenium](https://www.selenium.dev) - Framework de automatización de navegador para probar aplicaciones web en distintos navegadores, plataformas y tamaños de pantalla (`Open Source`).
 
 ## APIs de datos, scraping y búsqueda
 
@@ -195,6 +239,11 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Bright Data](https://brightdata.com) - Plataforma de datos web con desbloqueo, APIs de scraping y datasets orientados a agentes.
 - [Perplexity API](https://docs.perplexity.ai) - API Sonar para respuestas web fundamentadas y con citas que los agentes usan como herramienta de investigación.
 - [Scrapling](https://github.com/D4Vinci/Scrapling) - Framework de web scraping en Python que cubre descarga, parseo y casos anti-bot en un solo kit que un agente puede usar.
+- [Scrapy](https://scrapy.org) - Framework de Python para rastrear sitios y extraer datos estructurados de páginas a escala (`Open Source`).
+- [Serper](https://serper.dev) - API de búsqueda que devuelve resultados de Google en un formato fácil de usar dentro de agentes (`Freemium`).
+- [Brave Search API](https://brave.com/search/api/) - API de búsqueda que ofrece resultados web y de noticias para agentes y aplicaciones que necesitan contexto actualizado (`Freemium`).
+- [Oxylabs](https://oxylabs.io) - API de recopilación de datos con proxies y analizadores para páginas extraídas que deben mantenerse fiables (`Freemium`).
+- [Parallel](https://parallel.ai) - API de búsqueda y extracción que convierte páginas web en datos estructurados para flujos con LLM (`Freemium`).
 
 ## Memoria, RAG y bases vectoriales
 
@@ -209,6 +258,14 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [LanceDB](https://lancedb.com) - Base de datos vectorial embebida y multimodal construida sobre Lance, útil para memoria local de agentes.
 - [Graphiti](https://github.com/getzep/graphiti) - Framework open source de Zep para construir grafos de conocimiento en tiempo real y con conciencia temporal para agentes.
 - [claude-mem](https://github.com/thedotmack/claude-mem) - Memoria persistente para agentes de código: captura lo que hace el agente, lo comprime e inyecta el contexto relevante en las sesiones siguientes.
+- [GraphRAG](https://github.com/microsoft/graphrag) - Técnica que construye grafos de conocimiento sobre documentos para que los agentes respondan preguntas conectando ideas (`Open Source`).
+- [RAGFlow](https://github.com/infiniflow/ragflow) - Plataforma de recuperación que prepara documentos y embeddings para responder preguntas sobre tu propio contenido (`Open Source`).
+- [LightRAG](https://github.com/HKUDS/LightRAG) - Framework RAG ligero que indexa documentos y recupera contexto relevante para las respuestas de los agentes (`Open Source`).
+- [Cognee](https://www.cognee.ai) - Capa de memoria que convierte datos y conversaciones en un grafo de conocimiento que los agentes pueden consultar con el tiempo (`Open Source`).
+- [txtai](https://github.com/neuml/txtai) - Biblioteca que combina embeddings, búsqueda y flujos de trabajo para crear aplicaciones semánticas sobre datos de texto (`Open Source`).
+- [FAISS](https://github.com/facebookresearch/faiss) - Biblioteca de búsqueda rápida de similitud sobre vectores, usada para recuperar pasajes relevantes en sistemas RAG (`Open Source`).
+- [Vespa](https://vespa.ai) - Motor de búsqueda e inferencia que atiende consultas vectoriales, de texto y estructuradas a escala para agentes (`Open Source`).
+- [MongoDB Atlas Vector Search](https://www.mongodb.com/products/platform/atlas-vector-search) - Búsqueda vectorial sobre documentos en Atlas, útil para basar las respuestas de los agentes en tus propios datos (`Freemium`).
 
 ## Observabilidad, evals y trazas
 
@@ -222,6 +279,12 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Ragas](https://docs.ragas.io) - Kit open source de evaluación centrado en pipelines de RAG y agentes.
 - [Weights & Biases Weave](https://wandb.ai/site/weave) - W&B Weave para trazar, evaluar e iterar aplicaciones de LLM y agentes.
 - [Portkey](https://portkey.ai) - Pasarela de IA con observabilidad, guardrails, enrutado y una API unificada entre proveedores.
+- [Opik](https://www.comet.com/site/products/opik/) - Plataforma para trazar llamadas a LLM, evaluar resultados y depurar el comportamiento de los agentes a lo largo del tiempo (`Open Source`).
+- [LangWatch](https://langwatch.ai) - Espacio de observabilidad y evaluación para equipos que lanzan funciones con LLM y supervisan su calidad (`Freemium`).
+- [AgentOps](https://www.agentops.ai) - Herramienta que registra sesiones, llamadas a herramientas y fallos de los agentes para poder repetir y depurar cada ejecución (`Freemium`).
+- [TruLens](https://www.trulens.org) - Biblioteca para evaluar la calidad de recuperación y generación con funciones de feedback e inspección de trazas (`Open Source`).
+- [OpenLLMetry](https://www.traceloop.com) - Trazas basadas en OpenTelemetry para aplicaciones y agentes con LLM, compatibles con stacks de observabilidad existentes (`Open Source`).
+- [Giskard](https://www.giskard.ai) - Biblioteca de pruebas que analiza aplicaciones con LLM en busca de vulnerabilidades, sesgos y regresiones antes del lanzamiento (`Open Source`).
 
 ## APIs de LLM, routers y runtimes
 
@@ -246,6 +309,12 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) - API gestionada de AWS para muchos modelos fundacionales, además de Bedrock Agents y Guardrails.
 - [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) - Inferencia y bindings de IA que se ejecutan en el edge, junto a Workers y Agents.
 - [Cerebras](https://www.cerebras.ai) - API de inferencia de altísimo rendimiento, útil cuando el bucle de un agente necesita baja latencia.
+- [SGLang](https://github.com/sgl-project/sglang) - Framework de servicio para LLM con generación estructurada e inferencia rápida en aplicaciones de alto rendimiento (`Open Source`).
+- [LocalAI](https://localai.io) - Servidor de inferencia local que ejecuta modelos abiertos en tu hardware con una API compatible con OpenAI (`Open Source`).
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference) - Servidor de inferencia de Hugging Face optimizado para servir modelos de lenguaje grandes con eficiencia (`Open Source`).
+- [LMDeploy](https://github.com/InternLM/lmdeploy) - Kit de inferencia y servicio para LLM con compresión y kernels rápidos para despliegue (`Open Source`).
+- [MiniMax API](https://platform.minimax.io) - API de modelos para tareas de texto, voz y multimodal, usada cuando un agente necesita generación alojada (`Freemium`).
+- [SambaNova](https://sambanova.ai) - Plataforma de inferencia para ejecutar modelos abiertos en hardware especializado mediante una API (`Freemium`).
 
 ## Flujos de trabajo y orquestación
 
@@ -257,6 +326,12 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Prefect](https://www.prefect.io) - Orquestador de workflows en Python para programar, reintentar y observar pipelines de agentes y datos.
 - [Pipedream](https://pipedream.com) - Plataforma de integración y workflows con un catálogo enorme de APIs y tools orientadas a MCP.
 - [Trigger.dev](https://trigger.dev) - Trabajos en segundo plano y workflows durables open source para apps TypeScript, incluidas ejecuciones de agentes.
+- [Activepieces](https://www.activepieces.com) - Plataforma de automatización sin código con un conjunto creciente de conectores para crear flujos asistidos por agentes (`Open Source`).
+- [Windmill](https://www.windmill.dev) - Plataforma de flujos orientada a desarrolladores para ejecutar scripts como tareas, interfaces y automatizaciones programadas (`Open Source`).
+- [Kestra](https://kestra.io) - Plataforma de orquestación que define flujos de datos y agentes como código con historial de ejecución visible (`Open Source`).
+- [Apache Airflow](https://airflow.apache.org) - Plataforma de flujos para programar y supervisar pipelines, muy usada en ingeniería de datos (`Open Source`).
+- [Dagster](https://dagster.io) - Orquestador de datos que hace visibles activos, dependencias y fallos en todos tus pipelines (`Open Source`).
+- [Gumloop](https://www.gumloop.com) - Constructor visual de automatizaciones para equipos que quieren encadenar pasos de IA con herramientas habituales (`Freemium`).
 
 ## Voz, habla y tiempo real
 
@@ -271,6 +346,10 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Retell AI](https://www.retellai.com) - Plataforma para agentes de teléfono y voz, con LLM, TTS y telefonía ya conectados.
 - [Cartesia](https://cartesia.ai) - Modelos y APIs de voz de latencia ultrabaja para agentes de voz en tiempo real.
 - [Whisper](https://github.com/openai/whisper) - Modelo de voz a texto open source de OpenAI, aún el STT local por defecto para muchos agentes.
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) - Biblioteca optimizada de voz a texto que transcribe audio en local con menor consumo de recursos que modelos comparables (`Open Source`).
+- [Piper](https://github.com/rhasspy/piper) - Motor local de texto a voz rápido con voces descargables para aplicaciones sin conexión y productos integrados (`Open Source`).
+- [Gladia](https://www.gladia.io) - API de voz que transcribe y comprende audio, útil para añadir entrada por voz a productos (`Freemium`).
+- [Daily](https://www.daily.co) - Infraestructura de vídeo y audio en tiempo real para añadir llamadas y salas de voz a aplicaciones (`Freemium`).
 
 ## Guardrails y seguridad
 
@@ -282,6 +361,10 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) - Filtros de contenido gestionados, temas prohibidos y comprobaciones de fundamentación para modelos en Bedrock.
 - [Invariant](https://invariantlabs.ai) - Capa de seguridad y políticas para agentes: inspecciona trazas, limita herramientas y detecta inyección de prompts.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector) - Escáner de seguridad de NVIDIA para skills de agentes: busca vulnerabilidades, patrones maliciosos, inyección de prompts y riesgo de cadena de suministro antes de instalarlas.
+- [garak LLM scanner](https://github.com/NVIDIA/garak) - Escáner que prueba aplicaciones con LLM en busca de inyección de prompts, fugas y otras debilidades habituales (`Open Source`).
+- [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Framework para evaluar modelos de IA con tareas estructuradas, puntuadores y registros reproducibles (`Open Source`).
+- [PyRIT](https://github.com/Azure/PyRIT) - Kit de herramientas para pruebas de seguridad ofensiva en sistemas de IA generativa con prompts adversarios automatizados (`Open Source`).
+- [LangKit](https://github.com/whylabs/langkit) - Kit de herramientas para supervisar entradas y salidas de LLM con métricas de seguridad, relevancia y calidad (`Open Source`).
 
 ## Skills de agentes y marketplaces de tools
 
@@ -297,6 +380,22 @@ Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afil
 - [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) - Conjunto de skills de agente para gestionar una cuenta de Instagram: investigación, ganchos, textos y un tono de publicación más humano.
 - [last30days-skill](https://github.com/mvanhorn/last30days-skill) - Skill de agente que investiga un tema en Reddit, X, YouTube, Hacker News, Polymarket y la web, y redacta un resumen con fuentes.
 - [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) - Herramientas locales de FFmpeg con un contrato legible por máquinas y un servidor MCP, para que los agentes corten, subtitulen y exporten vídeo sin claves de API.
+- [mcp.so](https://mcp.so) - Directorio de servidores MCP que ayuda a encontrar conectores para herramientas y fuentes de datos antes de crear los tuyos (`Free`).
+
+## Marketing, SEO y prospección
+
+APIs y plataformas que los flujos de agentes usan para encontrar leads, enriquecer cuentas e investigar demanda de búsqueda. Las herramientas open source conviven con productos muy usados que tienen una página pública a la que enlazar.
+
+- [Clay](https://www.clay.com) - Espacio de enriquecimiento de datos y prospección para crear listas de contactos a partir de varias fuentes en un mismo flujo (`Freemium`).
+- [Apollo.io](https://www.apollo.io) - Plataforma de prospección con datos de contactos y secuencias para equipos de ventas y crecimiento (`Freemium`).
+- [Hunter](https://hunter.io) - Herramienta para encontrar y verificar direcciones de correo profesionales de un dominio durante la prospección (`Freemium`).
+- [PhantomBuster](https://phantombuster.com) - Herramienta de automatización para redes sociales que ayuda a captar contactos y ejecutar tareas repetitivas de prospección (`Freemium`).
+- [Instantly](https://instantly.ai) - Plataforma de prospección para gestionar secuencias de correo en frío, seguimientos y respuestas desde varias bandejas (`Freemium`).
+- [Ahrefs](https://ahrefs.com) - Plataforma SEO para investigar palabras clave, analizar enlaces y seguir la visibilidad en buscadores con el tiempo (`Freemium`).
+- [Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) - Rastreador que audita sitios web en busca de enlaces rotos, redirecciones y problemas de página antes del lanzamiento o durante el mantenimiento (`Freemium`).
+- [AlsoAsked](https://alsoasked.com) - Herramienta que mapea preguntas relacionadas en los resultados de búsqueda para planificar contenidos según la intención real (`Freemium`).
+- [BuiltWith](https://builtwith.com) - Herramienta que revela las tecnologías detrás de un sitio web, útil para investigación de mercado y prospección (`Freemium`).
+- [People Data Labs](https://www.peopledatalabs.com) - Proveedor de datos de empresas y personas usado para enriquecer flujos de prospección y CRM (`Freemium`).
 
 ## Hecho por fluyeporlaweb
 
