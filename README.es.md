@@ -2,7 +2,7 @@
 
 # Agent Tools
 
-**Un directorio curado de herramientas open source para agentes de IA**, pensado para equipos de marketing y crecimiento técnico: **frameworks de agentes**, **agentes de código y CLIs**, **servidores y clientes MCP**, automatización de navegador y sandboxes, memoria y RAG, observabilidad, y **flujos de prospección y SEO**. Lo construye y mantiene [fluyeporlaweb](https://fluyeporlaweb.com). Cada enlace se comprueba; las entradas se eligen, no se vierten a lo loco.
+**Un directorio curado de herramientas open source para agentes de IA**, pensado para equipos de marketing y crecimiento técnico: **frameworks de agentes**, **agentes de código y CLIs**, **servidores y clientes MCP**, automatización de navegador y sandboxes, memoria y RAG, observabilidad, y **flujos de prospección y SEO**. Lo construye y mantiene [fluyeporlaweb](https://fluyeporlaweb.com?src=github). Cada enlace se comprueba; las entradas se eligen, no se vierten a lo loco.
 
 [English](README.md) · Español
 
@@ -31,7 +31,9 @@
 - [Skills de agentes y marketplaces de tools](#skills-de-agentes-y-marketplaces-de-tools) (13)
 - [Marketing, SEO y prospección](#marketing-seo-y-prospección) (10)
 - [Hecho por fluyeporlaweb](#hecho-por-fluyeporlaweb) (2)
+- [Visto en nuestros vídeos](#visto-en-nuestros-vídeos)
 - [Patrocinadores](#patrocinadores)
+- [Más de fluyeporlaweb](#más-de-fluyeporlaweb)
 - [Listas relacionadas](#listas-relacionadas)
 - [Contribuir](#contribuir)
 - [Licencia](#licencia)
@@ -43,7 +45,7 @@ Esta es una lista tipo awesome de **herramientas open source para agentes de IA,
 
 No es un volcado de cada repositorio que menciona “agent”. Cada entrada tiene una línea de explicación y un enlace que responde. También hay una sección pequeña para las herramientas [hechas por fluyeporlaweb](#hecho-por-fluyeporlaweb).
 
-Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afiliacion/) que pasan por `fluyeporlaweb.com/go/`. Van marcadas con *afiliado*. El precio que pagas no cambia. Si quieres que tu marca aparezca en esta lista, mira [Patrocinadores](#patrocinadores).
+Algunas entradas usan [enlaces de afiliado](https://fluyeporlaweb.com/legal/afiliacion/?src=github) que pasan por `fluyeporlaweb.com/go/`. Van marcadas con *afiliado*. El precio que pagas no cambia. Si quieres que tu marca aparezca en esta lista, mira [Patrocinadores](#patrocinadores).
 
 ## Protocolos y estándares
 
@@ -402,11 +404,21 @@ APIs y plataformas que los flujos de agentes usan para encontrar leads, enriquec
 - [prospectforge](https://github.com/fluyeporlaweb/prospectforge) - Pipeline open source de leads B2B: descubre contactos, los cualifica contra tu ICP y redacta el primer mensaje. Por defecto va en dry-run y nunca envía correos.
 - [Apify — fluyeporlaweb actors](https://fluyeporlaweb.com/go/apify-fluyeporlaweb/?p=github-readme) - Actors abiertos que publicamos en Apify (empleo, RSS, BOE, licitaciones) que un agente puede ejecutar vía API o MCP de Apify. *(afiliado)*
 
+## Visto en nuestros vídeos
+
+Hacemos reviews en vídeo de webs poco conocidas, repos de GitHub y web apps. Los artículos y los enlaces están en [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github). Síguenos en [X](https://x.com/fluyeporlaweb) y en [Telegram](https://t.me/fluyeporlaweb).
+
 ## Patrocinadores
 
-Este proyecto es gratuito y de código abierto. Las marcas que quieran aparecer aquí o colaborar pueden escribir a [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) o visitar [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina).
+Este proyecto es gratuito y de código abierto. Las marcas que quieran aparecer aquí o colaborar pueden escribir a [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) o visitar [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina?src=github).
 
-**[Tu marca aquí](https://fluyeporlaweb.com/patrocina)**
+**[Tu marca aquí](https://fluyeporlaweb.com/patrocina?src=github)**
+
+## Más de fluyeporlaweb
+
+- [awesome-design-stack](https://github.com/fluyeporlaweb/awesome-design-stack) — recursos de diseño web curados, en inglés y en español.
+- [prospectforge](https://github.com/fluyeporlaweb/prospectforge) — pipeline open source de prospección B2B. Dry-run por defecto. Nunca envía correo.
+- Web: [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github)
 
 ## Listas relacionadas
 
@@ -432,7 +444,7 @@ Si trabajas en este repo con un agente de código, indícale [AGENTS.md](AGENTS.
 
 ## Enlaces
 
-- Web: [fluyeporlaweb.com](https://fluyeporlaweb.com)
+- Web: [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github)
 - X: [@fluyeporlaweb](https://x.com/fluyeporlaweb)
 - Telegram: [t.me/fluyeporlaweb](https://t.me/fluyeporlaweb)
 - Correo: [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com)

@@ -5,17 +5,26 @@
 Maintainer: fluyeporlaweb (https://x.com/fluyeporlaweb).
 License: MIT (https://github.com/fluyeporlaweb/ai-agent-tools/blob/main/LICENSE).
 Repository: https://github.com/fluyeporlaweb/ai-agent-tools
-Sponsor: https://fluyeporlaweb.com/patrocina
+Sponsor: https://fluyeporlaweb.com/patrocina?src=github
 Email: colab@fluyeporlaweb.com
 
 ## What this is
 
-An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link): agent frameworks, coding agents, MCP servers and clients, browser automation and sandboxes, memory and RAG, observability, and prospecting / SEO tools. Some links are affiliates (marked in the README); see https://fluyeporlaweb.com/legal/afiliacion/. Links are re-checked weekly.
+An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link): agent frameworks, coding agents, MCP servers and clients, browser automation and sandboxes, memory and RAG, observability, and prospecting / SEO tools. Some links are affiliates (marked in the README); see https://fluyeporlaweb.com/legal/afiliacion/?src=github. Links are re-checked weekly.
 
 ## Built by fluyeporlaweb
 
 - prospectforge: open-source B2B lead pipeline (discover, qualify, draft). Dry-run by default. Never sends email. https://github.com/fluyeporlaweb/prospectforge
 - Apify actors: scrapers and automations published at https://apify.com/fluyeporlaweb
+
+## Videos
+
+Short reviews of unusual websites, GitHub repos and web apps: https://fluyeporlaweb.com?src=github
+
+## Also from fluyeporlaweb
+
+- awesome-design-stack: https://github.com/fluyeporlaweb/awesome-design-stack
+- prospectforge: https://github.com/fluyeporlaweb/prospectforge
 
 ## Docs
 
@@ -26,7 +35,7 @@ An awesome list, not a monorepo of every tool we build. Entries are curated (one
 
 ## Links
 
-- Website: https://fluyeporlaweb.com
+- Website: https://fluyeporlaweb.com?src=github
 - X: https://x.com/fluyeporlaweb
 - Telegram: https://t.me/fluyeporlaweb
 - Email: colab@fluyeporlaweb.com
