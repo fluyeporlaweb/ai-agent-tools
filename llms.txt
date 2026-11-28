@@ -10,7 +10,7 @@ Email: colab@fluyeporlaweb.com
 
 ## What this is
 
-An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link): agent frameworks, coding agents, MCP servers and clients, browser automation and sandboxes, memory and RAG, observability, and prospecting / SEO tools. Some links are affiliates (marked in the README); see https://fluyeporlaweb.com/legal/afiliacion/.?src=github Links are re-checked weekly.
+An awesome list, not a monorepo of every tool we build. Entries are curated (one line, one working link): agent frameworks, coding agents, MCP servers and clients, browser automation and sandboxes, memory and RAG, observability, and prospecting / SEO tools. Some links are affiliates (marked in the README); see https://fluyeporlaweb.com/legal/afiliacion/?src=github. Links are re-checked weekly.
 
 ## Built by fluyeporlaweb
 
