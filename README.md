@@ -2,11 +2,12 @@
 
 # Agent Tools
 
-**A curated directory of open-source AI agent tools** for marketing and technical growth teams: **agent frameworks**, **coding agents and CLIs**, **MCP servers and clients**, browser automation and sandboxes, memory and RAG, observability, and **prospecting and SEO workflows**. Built and maintained by [fluyeporlaweb](https://fluyeporlaweb.com). Every link is checked; entries are chosen, not dumped.
+**A curated directory of open-source AI agent tools** for marketing and technical growth teams: **agent frameworks**, **coding agents and CLIs**, **MCP servers and clients**, browser automation and sandboxes, memory and RAG, observability, and **prospecting and SEO workflows**. Built and maintained by [fluyeporlaweb](https://fluyeporlaweb.com?src=github). Every link is checked; entries are chosen, not dumped.
 
 English · [Español](README.es.md)
 
 [![GitHub stars](https://img.shields.io/github/stars/fluyeporlaweb/ai-agent-tools?style=flat)](https://github.com/fluyeporlaweb/ai-agent-tools/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/fluyeporlaweb/ai-agent-tools?style=flat)](https://github.com/fluyeporlaweb/ai-agent-tools/commits/main)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Links checked weekly](https://img.shields.io/badge/links-checked%20weekly-blue.svg)](.github/workflows/link-check.yml)
@@ -31,7 +32,9 @@ English · [Español](README.es.md)
 - [Agent skills and tool marketplaces](#agent-skills-and-tool-marketplaces) (13)
 - [Marketing, SEO and prospecting](#marketing-seo-and-prospecting) (10)
 - [Built by fluyeporlaweb](#built-by-fluyeporlaweb) (2)
+- [Seen in our videos](#seen-in-our-videos)
 - [Sponsors](#sponsors)
+- [More from fluyeporlaweb](#more-from-fluyeporlaweb)
 - [Related lists](#related-lists)
 - [Contributing](#contributing)
 - [License](#license)
@@ -43,7 +46,7 @@ This is a curated awesome list of **open-source AI agent tools for marketing and
 
 It is not a dump of every repo with “agent” in the name. Each entry has a one-line description and a working link. We also keep a small section for tools [built by fluyeporlaweb](#built-by-fluyeporlaweb).
 
-Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/) that go through `fluyeporlaweb.com/go/`. They are marked with *affiliate*. You pay the same price. See [Sponsors](#sponsors) if you want your brand on this list.
+Some entries use [affiliate links](https://fluyeporlaweb.com/legal/afiliacion/?src=github) that go through `fluyeporlaweb.com/go/`. They are marked with *affiliate*. You pay the same price. See [Sponsors](#sponsors) if you want your brand on this list.
 
 ## Protocols and standards
 
@@ -402,11 +405,21 @@ APIs and platforms that agent workflows use to find leads, enrich accounts and r
 - [prospectforge](https://github.com/fluyeporlaweb/prospectforge) - Open-source B2B lead pipeline: discover contacts, qualify them against your ICP and draft outreach. Dry-run by default. Never sends email.
 - [Apify — fluyeporlaweb actors](https://fluyeporlaweb.com/go/apify-fluyeporlaweb/?p=github-readme) - Open actors we publish on Apify (jobs, RSS, BOE, public tenders) that an agent can run through the Apify API or MCP. *(affiliate)*
 
+## Seen in our videos
+
+We review unusual websites, GitHub repos and web apps in short videos. The write-ups and links live on [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github). Follow along on [X](https://x.com/fluyeporlaweb) and [Telegram](https://t.me/fluyeporlaweb).
+
 ## Sponsors
 
-This project is free and open source. Brands that want to appear here or collaborate with us can write to [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) or visit [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina).
+This project is free and open source. Brands that want to appear here or collaborate with us can write to [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com) or visit [fluyeporlaweb.com/patrocina](https://fluyeporlaweb.com/patrocina?src=github).
 
-**[Your brand here](https://fluyeporlaweb.com/patrocina)**
+**[Your brand here](https://fluyeporlaweb.com/patrocina?src=github)**
+
+## More from fluyeporlaweb
+
+- [awesome-design-stack](https://github.com/fluyeporlaweb/awesome-design-stack) — curated web design resources, in English and Spanish.
+- [prospectforge](https://github.com/fluyeporlaweb/prospectforge) — open-source B2B lead pipeline. Dry-run by default. Never sends email.
+- Website: [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github)
 
 ## Related lists
 
@@ -432,7 +445,7 @@ If you work on this repo with a coding agent, point it to [AGENTS.md](AGENTS.md)
 
 ## Links
 
-- Website: [fluyeporlaweb.com](https://fluyeporlaweb.com)
+- Website: [fluyeporlaweb.com](https://fluyeporlaweb.com?src=github)
 - X: [@fluyeporlaweb](https://x.com/fluyeporlaweb)
 - Telegram: [t.me/fluyeporlaweb](https://t.me/fluyeporlaweb)
 - Email: [colab@fluyeporlaweb.com](mailto:colab@fluyeporlaweb.com)
